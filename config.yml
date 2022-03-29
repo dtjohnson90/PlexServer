@@ -1,0 +1,67 @@
+libraries:
+  Dustin's Movies:
+    missing_path: /home/dtjohnson90/plex_sync/Plex-Meta-Manager/config/missing.yml
+    metadata_path:
+      - url: https://raw.githubusercontent.com/dtjohnson90/PlexServer/main/meta.yml
+  My Movies:
+    missing_path: /home/dtjohnson90/plex_sync/Plex-Meta-Manager/config/missing.yml
+    metadata_path:
+      - url: https://raw.githubusercontent.com/dtjohnson90/PlexServer/main/meta.yml
+settings:
+  sync_mode: sync
+  missing_only_released: true
+  cache: true
+  cache_expiration: 60
+  asset_directory:
+    - /home/dtjohnson90/plex_sync/Plex-Meta-Manager/config/assets
+  asset_folders: true
+  asset_depth: 0
+  create_asset_folders: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  default_collection_order:
+  minimum_items: 1
+  item_refresh_delay: 0
+  delete_below_minimum: false
+  delete_not_scheduled: false
+  run_again_delay: 0
+  only_filter_missing: false
+  show_unmanaged: true
+  show_filtered: false
+  show_options: false
+  show_missing: true
+  show_missing_assets: true
+  save_missing: true
+  tvdb_language: default
+  ignore_ids:
+  ignore_imdb_ids:
+  playlist_sync_to_users: all
+  verify_ssl: true
+  custom_repo:
+plex:
+  url: http://192.168.86.47:32400
+  token: 4gJEMwimUNH2H5XkZzHt
+  clean_bundles: true
+  empty_trash: true
+  optimize: true
+  timeout: 60
+tmdb:
+  apikey: 25c47cc979a828bf884213fbe0dc7412
+  language: en
+  cache_expiration: 60
+radarr:
+  url: http://radarr2.johnson-plex.com
+  token: 9bbb26b7f5924891aab2edf100711244
+  root_folder_path: /data/media/1080p
+  availability: announced
+  quality_profile: 1080p
+  search: true
+  add_missing: true
+  add_existing: false
+  monitor: true
+  tag:
+  radarr_path:
+  plex_path:
