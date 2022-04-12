@@ -53,7 +53,7 @@ tmdb:
   language: en
   cache_expiration: 60
 radarr:
-  url: http://radarr2.johnson-plex.com
+  url: https://radarr2.johnson-plex.com
   token: 9bbb26b7f5924891aab2edf100711244
   root_folder_path: /data/media/1080p
   availability: announced
